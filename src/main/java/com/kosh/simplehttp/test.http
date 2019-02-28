@@ -1,0 +1,13 @@
+
+PUT http://localhost:8080/person/new
+content-type: application/json
+
+{
+  "name": "baz",
+  "age": 45
+}
+
+###
+
+GET http://localhost:8080/?nameFilter=baz
+content-type: application/json

@@ -1,0 +1,15 @@
+{
+  "configurations": [
+
+    {
+      "type": "java",
+      "name": "Spring Boot-DemoApplication<simple-http>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.kosh.simplehttp.DemoApplication",
+      "projectName": "simple-http",
+      "args": ""
+    }
+  ]
+}
